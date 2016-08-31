@@ -1,0 +1,22 @@
+/* YOUR CUSTOM STYLES */
+
+header{
+    padding: 1em 0;
+}
+.navbar.main{margin: 1em 0 0;padding: 0;}
+.navbar.main .nav .nav-item a{padding-top: 12px;padding-bottom: 12px;}
+.sub-main,.navbar.main .nav .nav-item a{border-radius: 0;}
+.form-group h5 {
+    margin-top: 0.5em;
+}
+.modal-ext .modal-content .modal-body {
+    padding: 2rem 2rem 1rem;    text-align: left;
+}.cart-modal .table, .cart-modal th, .collection-card .stripe, .double-nav .nav-icons li, .min-chart, .modal-ext .modal-content .modal-header, .product-card .cta, .product-panel .modal-header, .ql-modal .modal-header {
+    text-align: center;
+}.md-form, .md-form .btn {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 550px) {
+    .navbar.main{padding: 1em 0.5em;}
+}
